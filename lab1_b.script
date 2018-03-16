@@ -1,0 +1,28 @@
+Script started on Fri Mar 16 13:30:07 2018
+]0;/home/user
+[32muser@v3-572G [33m/home/user[0m
+$ whoami; pwd
+user
+/home/user
+]0;/home/user
+[32muser@v3-572G [33m/home/user[0m
+$ git config -l
+user.email=laura030727@yahoo.com.tw
+user.name=laurachenn
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.lab1.url=https://github.com/laurachenn/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;/home/user
+[32muser@v3-572G [33m/home/user[0m
+$ git clone https://github.com/laurachenn/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+]0;/home/user
+[32muser@v3-572G [33m/home/user[0m
+$ exit
+
+Script done on Fri Mar 16 13:31:08 2018
